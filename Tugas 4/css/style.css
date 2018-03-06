@@ -1,0 +1,129 @@
+/*----navbar----*/
+.navbar-fixed {
+    margin: 0 !important;
+}
+.nav-logo {
+    padding: 0 20px 0 20px;
+    height: 75px;
+    width: 120px;
+    margin: 10px 0 10px 0;
+}
+.nav-content {
+    margin: 30px 0 0 10px;
+}
+.nav-sideButton {
+    margin-top: 25px;
+}
+
+@media screen and (max-width: 576px) {
+    .nav-content {
+        margin: 0;
+    }
+    .nav-logo {
+        margin: 10px 0 0 0;
+        height: 50px;
+        width: 95px;
+    }
+}
+.img-fakultas {
+    height: 25px;
+    width: 25px;
+    position: relative;
+    margin: 5px;
+}
+.navbar {
+    margin-bottom: 0;
+}
+
+
+/*----Registrasi Toko----*/
+.container-regis {
+    text-align: center;
+    padding: 10px 0;
+}
+.field-regis-toko {
+    text-align: left;
+    margin: 0 auto;
+    border: 1px solid #18BBDD;
+    width: 75%;
+    margin: 0 auto;
+    padding: 20px;
+}
+.regis-toko-title {
+    text-align: center;
+}
+.form_pendaftaran_toko input[type=text], .form_pendaftaran_toko input[type=password]{
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 15px;
+    background-color: white;
+}
+
+.form_pendaftaran_toko p {
+  margin: 10px;
+  text-align: justify; 
+  color: rgba(128,128,128,0.85);
+  margin-left: 25%;
+}
+.btn-daftar-toko{
+  font-size: 25px;
+  text-decoration: none;
+  background-color:#12A8BB;
+  color:white;
+  padding: 10px 50px;
+  margin: 0 40%;
+}
+
+.btn-profile{
+  font-size: 18px;
+  text-decoration: none;
+  background-color:#12A8BB;
+  color:white;
+  
+  margin: 20% 5%;
+}
+
+.form_pendaftaran_toko a{
+  font-size: 15px;
+  text-align: center;
+  text-decoration: none;
+  color: #12A8BB;
+  opacity: 0.85;
+}
+@media screen and (max-width:576px) {
+    .btn-daftar-toko {
+        font-size: 16px;
+        padding: 5px 25px;
+        margin: 10px;
+    }    
+}
+
+#contact-us {
+    background: url("../Assets/background_footer_black.jpg") no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding: 20px;
+}
+.startup-address {
+    margin-top: 50px;
+}
+.startup-phone {
+    margin-top: 10px;
+}
+.contact-getin-touch {
+    padding: 0 50px;
+}
+.contact-social-media {
+    margin-top: 50px;
+    text-align: center;
+}
+.socmed-icon {
+    margin: 10px 20px;
+    font-size: 30px !important;
+}
+@media screen and (max-width: 576px) {
+    .contact-getin-touch {
+        padding: 0 20px;
+    }
+}
