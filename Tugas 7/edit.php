@@ -23,17 +23,16 @@ $sql = "SELECT nama,email,tel,job
 $res = mysqli_query($link,$sql);
 $dataBaris = mysqli_fetch_array($res);
 ?>
-<form  action = "update.php?row="
-     <?php echo "$id"; ?> method="POST">
+<form  action = "update.php?row=<?php echo($id); ?>" method="POST">
   <div class='form-group' >
     <label >Nama: </label>
-    <input type='text' class='form-control' placeholder='Masukkan Nama' name='nama' value= <?php echo "\" $dataBaris[nama] \""; ?> >
+    <input type='text' class='form-control' placeholder='Masukkan Nama' name='nama' value= <?php echo "\"$dataBaris[nama]\""; ?> >
     <label >Email:</label>
-    <input type='email' class='form-control' placeholder='Masukkan Email' name='email' value= <?php echo "\" $dataBaris[email] \""; ?>>
+    <input type='email' class='form-control' placeholder='Masukkan Email' name='email' value= <?php echo "\"$dataBaris[email]\""; ?>>
     <label >Phone No.</label>
-    <input type='tel' class='form-control' placeholder='Masukkan Nomor Telepon' name='phone' value=<?php echo "\" $dataBaris[tel] \""; ?>>
-    <label >Job</labmel>
-    <input type='text' class='form-control' placeholder='Masukkan Pekerjaan' name='job' value= <?php echo "\" $dataBaris[nama] \""; ?>> 
+    <input type='tel' class='form-control' placeholder='Masukkan Nomor Telepon' name='phone' value=<?php echo "\"$dataBaris[tel]\""; ?>>
+    <label >Job</label>
+    <input type='text' class='form-control' placeholder='Masukkan Pekerjaan' name='job' value= <?php echo "\"$dataBaris[job]\""; ?>> 
   </div>
   <button type='submit' class='btn btn-primary'>Edit</button>
 </form>

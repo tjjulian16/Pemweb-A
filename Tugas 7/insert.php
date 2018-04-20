@@ -24,7 +24,7 @@ mysqli_close($link);
 	<title></title>
 	  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" >
 </head>
-  <body background="background.jpg">
+  <body background="background.jpg" style="background-repeat: no-repeat;">
 
   <div class = "container">
   <div class="col-md-8 col-sm-12 col-xs-12" style="margin: 50px auto;">
